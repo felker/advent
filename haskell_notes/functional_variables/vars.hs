@@ -9,4 +9,4 @@ main        = print more
 {-  you never need to worry about initialising a Haskell variable, nor do you
 need to worry about the current value in a variable: it always has the same
 value, and can always be replaced with its definition. -}
-print more
+
