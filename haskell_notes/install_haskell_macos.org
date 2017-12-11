@@ -1,1 +1,20 @@
-There is a complicated set of package-management options for Haskell.
+# -*- mode: org -*-
+#+STARTUP: showall
+#+STARTUP: indent
+
+* Initial environment setup, 12/11/17
+There is a complicated set of package-management options for Haskell. There is
+on-going development and debate regarding the optimal choices for a Haskell
+development environment. 
+- =brew install haskell-stack= was the first install step I used.
+  - This includes the =cabal= package manager
+  - But it did not include the =ghci= interpreter
+- Therefore, I then also executed =brew cask install haskell-platform=
+- Finally, I installed the IHaskell kernel for IPython notebooks
+* Summary / glossary of options and tools:
+- =ghc= compiles Haskell files, with extensions =.hs=
+- =ghci= is the GHC interpreter, similar to the Python or IPython interpreters
+  - Included only after =brew cask install haskell-platform=
+- IHaskell is a Haskell kernel for IPython and can be used with Jupyter
+  notebooks. It is hosted on a [[https://github.com/gibiansky/IHaskell][GitHub repo]].
+

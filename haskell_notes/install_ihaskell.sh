@@ -2,6 +2,7 @@
 
 # More or less following the Mac install instructions from
 # https://github.com/gibiansky/IHaskell
+# Dependencies installed via Homebrew Brewfile
 cd /Users/kfelker/Documents/Coding/
 git clone https://github.com/gibiansky/IHaskell
 cd IHaskell
