@@ -1,0 +1,8 @@
+sqrt 325489 = 570.516432716885
+Therefore, n^2=571^2=326041 is the nearest odd perfect square, which has distance
+(n-1) = 570
+arm from the center. 326041 - 325489 = 552, so it is close to the bottom left
+corner. It is 28 points away from that position.
+
+Hence, 570 - 28 = 552
+
