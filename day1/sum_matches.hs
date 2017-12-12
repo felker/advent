@@ -7,7 +7,8 @@ main = do
         --print . lines $ contents -- Use Haskell's lines function to strip \n
         -- But lines() now encloses the string in a list, i.e.
         -- [["l", "i", "n", "e"]]
-        let line1 = words contents
+        let line1 = words contents -- since no IO is used, use "let", not
+                    -- monadic binding
         --print (line1 !! 0)
         --print . map readInt . map (\c -> [c]) $ (line1 !! 0)
         let line1_int = map readInt . map (\c -> [c]) $ (line1 !! 0)
